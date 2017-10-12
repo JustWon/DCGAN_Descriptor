@@ -16,4 +16,4 @@ https://github.com/JustWon/LCD_Dataset
 https://github.com/carpedm20/DCGAN-tensorflow
 
 # Contact
-- If you have any comments, please make a thread on an issue page or contact dongwonshin@gist.ac.kr.
+- If you have any comments, please make a thread on an issues page or contact dongwonshin@gist.ac.kr.
