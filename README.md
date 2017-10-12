@@ -1,7 +1,7 @@
 # DCGAN_Descriptor
 - Training module for DCGAN
 - Descriptor extraction from DCGAN
-- checkpoint file for our DCGAN model trained on Places dataset
+- Checkpoint file for our DCGAN model trained on Places dataset
 
 # Training dataset
 - We used the Places dataset for the training the DCGAN.
