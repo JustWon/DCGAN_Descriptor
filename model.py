@@ -74,13 +74,15 @@ class DCGAN(object):
       self.data_X, self.data_y = self.load_mnist()
       self.c_dim = self.data_X[0].shape[-1]
     else:
-      self.data = glob(os.path.join("./data", self.dataset_name, self.input_fname_pattern))
+      # print("hello")
+      # self.data = glob(os.path.join("./data", self.dataset_name, self.input_fname_pattern))
       # self.data = glob(os.path.join(self.dataset_name, self.input_fname_pattern))
-      imreadImg = imread(self.data[0]);
-      if len(imreadImg.shape) >= 3: #check if image is a non-grayscale image by checking channel number
-        self.c_dim = imread(self.data[0]).shape[-1]
-      else:
-        self.c_dim = 1
+      # imreadImg = imread(self.data[0]);
+      # if len(imreadImg.shape) >= 3: #check if image is a non-grayscale image by checking channel number
+      #   self.c_dim = imread(self.data[0]).shape[-1]
+      # else:
+      #   self.c_dim = 1
+      self.c_dim = 3
 
     self.grayscale = (self.c_dim == 1)
 
