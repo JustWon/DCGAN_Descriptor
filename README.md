@@ -11,6 +11,11 @@ http://places2.csail.mit.edu/
 - The following link is for the evaluation datset for our loop closure detection method.
 https://github.com/JustWon/LCD_Dataset
 
+# Dependencies
+- Python 3
+- Numpy
+- Tensorflow
+
 
 # Reference
 https://github.com/carpedm20/DCGAN-tensorflow
