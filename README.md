@@ -15,6 +15,9 @@ If you want to train the model on your training data, run the following commend 
 
 `python main.py --dataset "path/to/dataset" --input_height=64 --batch_size=128 --train`
 
+# Constructing your training dataset
+(To be added)
+
 # Evaluation dataset
 - The following link is for the evaluation datset for our loop closure detection method.
 https://github.com/JustWon/LCD_Dataset
